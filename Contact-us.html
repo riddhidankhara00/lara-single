@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LARA - Tax o feb</title>
+        <!-----   FONT-AWESOME LINK    ----->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-----   BOOTSTRAP LINK    ----->
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+        <!-----   owl-carousel LINK    ----->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+        <!-----   CSS LINK    ----->
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+    </head>
+    <body>
+
+        <div id="gifPreloader">
+            <img src="gif/download.gif" alt="Loading..." />
+        </div>
+
+        <!--- NAVIGATION BAR --->
+        <section class="navigation-bar">
+         <div class="container-fluid">
+             <nav class="navbar navbar-expand-lg navbar-light">
+                 <div class="d-flex justify-content-between btn-logo">
+                     <a class="navbar-brand pb-2" href="index.html"><img src="images/logo.png" alt="logo" /></a>
+                     <button
+                         class="navbar-toggler"
+                         type="button"
+                         data-toggle="collapse"
+                         data-target="#navbarNavDropdown"
+                         aria-controls="navbarNavDropdown"
+                         aria-expanded="false"
+                         aria-label="Toggle navigation"
+                     >
+                         <span class="navbar-toggler-icon"></span>
+                     </button>
+                 </div>
+                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                     <ul class="navbar-nav align-items-center">
+                         <li class="nav-item active-menu">
+                             <a class="nav-link active-menu" href="index.html">Home <span class="sr-only"></span></a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="about-us.html">About Us <span class="sr-only">(current)</span></a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="Contact-us.html">Contact Us<span class="sr-only"></span></a>
+                         </li>
+                         <li class="header-cart"></li>
+                     </ul>
+                 </div>
+                 <ul class="header-icons">
+                     <a class="shopping-cart" data-toggle="modal" data-target="#myModal" href="#"><i class="fa fa-magnifying-glass"></i></a>
+                     <!-- Modal -->
+                     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                         <div class="modal-dialog" role="document">
+                             <div class="modal-content">
+                                 <div class="modal-header">
+                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                 </div>
+                                 <div class="modal-body">
+                                     <form action="#" class="navbar-form" role="search">
+                                         <div class="form-group position-relative">
+                                             <input type="search" class="form-control" placeholder="Search" />
+                                             <button type="submit" class="btn btn-default"><i class="fa fa-magnifying-glass"></i></button>
+                                         </div>
+                                     </form>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <a class="mobile-hide search-bar-icon" href="#"><i class="fa fa-cart-shopping"></i></a>
+                 </ul>
+             </nav>
+         </div>
+        </section>
+      <!--- services-style-one-banner --->
+      <section class="contct-us-banner inner-banner">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <div class="contct-us-banner-content inner-banner-content">
+                        <h1>Contact Us</h1>
+                        <p><a href="index.html">Home</a>Contact Us</p>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="contct-us-banner-img inner-banner-img">
+                        <img src="images/contct-us-banner-img.png" alt="contct-us-banner-img" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--- Contct us Box --->
+    <section class="contct-us-info pt-100 pb-70">
+        <div class="container">
+            <div class="contact-us-main">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="contct-us-info-card text-center">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h5>Send Email</h5>
+                            <p><a href="mailto:info@naon.com">info@naon.com</a></p>
+                            <p><a href="mailto:hello@naon.com">hello@naon.com</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="contct-us-info-card text-center">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <h5>Send Email</h5>
+                            <p><a href="tel:+(+01) 123 321 5789">(+01) 123 321 5789</a></p>
+                            <p><a href="tel:+(+01) 123 422 6779">(+01) 123 422 6779</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="contct-us-info-card text-center">
+                            <i class="fa fa-location-dot"></i>
+                            <h5>Visit Anytime</h5>
+                            <p>6688 Princess Road, London,</p>
+                            <p>Greater London BAS 23JK, UK</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--- Do You’ve Any Question --->
+    <section class="contct-aq pb-70">
+        <div class="container">
+            <div class="contact-us-main">
+                <div class="contct-aq-title text-center">
+                    <h5>Do You’ve Any Question?</h5>
+                </div>
+                <div class="contct-aq-form">
+                    <form action="#">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" id="name" placeholder="Name" required />
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="email" class="form-control" id="Email" placeholder="Email" required />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="number" class="form-control" id="number" placeholder="Phone Number" required />
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" id="subject" placeholder="Your Subject" required />
+                            </div>
+                        </div>
+                        <div class="form-group message">
+                            <textarea class="form-control" name="message" id="message" placeholder="Your Message" cols="30" rows="7" required></textarea>
+                        </div>
+                        <div class="form-group check">
+                            <input type="checkbox" id="checkk" class="form-control" required />
+                            <label for="checkk">Accept <a href="#">Terms & Conditions</a> And <a href="#">Privacy Policy.</a></label>
+                        </div>
+                        <div class="submit-btn position-relative pl-1">
+                            <button type="submit" class="btn btn-primary position-relative">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+           
+        <!--- Footer --->
+        <footer class="pt-100 pb-70">
+         <div class="container">
+             <div class="row">
+                 <div class="col-xl-4 col-lg-3 col-sm-6">
+                     <div class="f-logo-content mb-30">
+                         <div class="f-logo">
+                             <a href="index.html"><img src="images/logo.png" alt="f-logo" /></a>
+                         </div>
+                         <p>Pellentesque habitant morbi tristique senectus netus malesuada fames ac turpis egestas vesti ulum tortor quam bulum tortor feugiat</p>
+                         <div class="social-media f-icon">
+                             <a href="#">
+                                 <i class="fa-brands fa-facebook-f"></i>
+                             </a>
+                             <a href="#">
+                                 <i class="fa-brands fa-twitter"></i>
+                             </a>
+                             <a href="#">
+                                 <i class="fa-brands fa-linkedin-in"></i>
+                             </a>
+                             <a href="#">
+                                 <i class="fa-brands fa-vimeo-v"></i>
+                             </a>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-lg-3 col-sm-6">
+                     <div class="Newsletter mb-30">
+                         <div class="f-title">
+                             <h5>Our Newsletter</h5>
+                         </div>
+                         <div class="f-email">
+                             <form action="#">
+                                 <input type="email" class="form-control" name="email" placeholder="Enter Your Email Address" required />
+                                 <button type="submit" class="btn btn-primary">Subscribe Now<i class="fa fa-paper-plane"></i></button>
+                             </form>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-xl-2 col-lg-3 col-sm-6">
+                     <div class="salon-hours mb-30">
+                         <div class="f-title">
+                             <h5>Salon Hours</h5>
+                         </div>
+                         <ul class="f-hours">
+                             <li>
+                                 <b>Monday - Friday</b>
+                                 <p>09:00 AM - 10:00 PM</p>
+                             </li>
+                             <li>
+                                 <b>Saturday - Sunday</b>
+                                 <p>10:00 AM - 08:00 PM</p>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+                 <div class="col-lg-3 col-sm-6">
+                     <div class="get-in-touch mb-30">
+                         <div class="f-title">
+                             <h5>Get In Touch</h5>
+                         </div>
+                         <ul class="get-in-touch-content">
+                             <li class="d-flex align-items-center">
+                                 <div class="f-icon social-media">
+                                     <a href="#">
+                                         <i class="fa-solid fa-phone-volume"></i>
+                                     </a>
+                                 </div>
+                                 <div class="get-touch-content">
+                                     <b>Contact Us</b>
+                                     <p><a href="tel:+123 456 778">+123 456 778</a></p>
+                                 </div>
+                             </li>
+                             <li class="d-flex align-items-center">
+                                 <div class="f-icon social-media">
+                                     <a href="#">
+                                         <i class="fa-solid fa-envelope"></i>
+                                     </a>
+                                 </div>
+                                 <div class="get-touch-content">
+                                     <b>Email:</b>
+                                     <p><a href="mailto:hello@naon.com">hello@naon.com</a></p>
+                                 </div>
+                             </li>
+                             <li class="d-flex align-items-center">
+                                 <div class="f-icon social-media">
+                                     <a href="#">
+                                         <i class="fa fa-location-dot"></i>
+                                     </a>
+                                 </div>
+                                 <div class="get-touch-content">
+                                     <b>Address</b>
+                                     <p>151, Demo Store United States</p>
+                                 </div>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </footer>
+     <section class="footer-bootom">
+         <div class="container">
+             <div class="f-b-content text-center">
+                 <p>Copyright @2022 <b>Naon</b> All Rights Reserved <a href="#">HiBootstrap</a></p>
+             </div>
+         </div>
+     </section>
+ </body>
+ <!-----   BOOTSTRAP SCRIPT    ----->
+ <script
+     src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+     crossorigin="anonymous"
+ ></script>
+ <script
+     src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+     crossorigin="anonymous"
+ ></script>
+ <!-- jquery -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+ <!-- Owl Craousel -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+ <script src="js/home-index.js"></script>
+ <script src="assets/js/custom.js"></script>
+</html>

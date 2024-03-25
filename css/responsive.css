@@ -1,0 +1,364 @@
+@media only screen and (min-width: 1350px) {
+    .container-fluid {
+        max-width: 1340px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .container {
+        max-width: 1320px !important;
+    }
+}
+@media only screen and (min-width: 1470px) {
+    .container-fluid {
+        max-width: 1460px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .header-icons i {
+        font-size: 20px;
+    }
+    .header-icons a:first-child {
+        padding-right: 15px;
+        margin-right: 10px;
+    }
+    .header-icons a:first-child::before {
+        top: -8px;
+        height: 30px;
+    }
+    .header-top li {
+        margin-right: 30px;
+    }
+    .dropdown-toggle::after {
+        font-size: 17px;
+    }
+    .nav-link {
+        padding: 0px 10px !important;
+        margin-right: 19px;
+    }
+    .testimonial-card {
+        padding: 15px;
+    }
+    .f-logo-content {
+        padding-right: 0px;
+    }
+    .our-staff-card::after {
+        height: 300px;
+    }
+    .our-staff-card {
+        padding: 0px 20px 20px;
+    }
+    .social-media a {
+        margin-right: 4px;
+    }
+
+    /****************   Services Style One   ****************/
+    .inner-navigation::after {
+        z-index: -11;
+    }
+    .inner-navigation::before {
+        z-index: -11;
+    }
+
+    /****************   Services Details   ****************/
+    .sd-main-left {
+        padding-right: 0px;
+    }
+    .inner-banner-img img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 991.98px) {
+    .btn-logo {
+        width: 100%;
+    }
+    .nav-link {
+        font-size: 19px;
+    }
+    .navbar {
+        padding: 10px 0px;
+    }
+    .dropdown-toggle::after {
+        font-size: 26px;
+        margin-top: -6px;
+    }
+    .dropdown-menu .nav-item .nav-link {
+        padding: 10px 40px !important;
+    }
+    .dropdown-menu li .dropdown-menu li {
+        padding-left: 40px !important;
+    }
+    .dropdown-toggle::after {
+        margin-right: 25px;
+    }
+    .social-media {
+        margin-right: auto;
+        margin-top: 5px;
+    }
+    .navigation-bar {
+        position: -webkit-sticky;
+        position: static !important;
+    }
+    .navbar {
+        flex-direction: column;
+        width: 100%;
+    }
+    .dropdown-menu .nav-item {
+        border-bottom: 0px solid #f0eeee;
+    }
+    .navbar-nav {
+        height: 320px;
+        overflow: auto;
+    }
+    .navbar-toggler {
+        margin: 20px 0px;
+    }
+    .dropdown-toggle::after {
+        float: right;
+    }
+    .nav-item {
+        border-top: 1px solid #dbeefd;
+        width: 100%;
+    }
+    .navbar-collapse {
+        max-width: 100%;
+        width: 100%;
+    }
+    .dropdown-menu {
+        box-shadow: none;
+    }
+    .header-icons {
+        position: absolute;
+        top: 40px;
+        right: 80px;
+    }
+
+    .banner h1 {
+        font-size: 60px;
+    }
+    .banner-content {
+        padding-top: 50px;
+    }
+    .banner-right-img {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .about-us-main-content {
+        margin-top: 30px;
+    }
+    .about-flower {
+        left: 0px;
+    }
+    .about-left-img {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .form-group.message {
+        margin: 0px 00px 1rem 0px;
+    }
+    .home-services-form .submit-btn {
+        margin-left: 0px;
+    }
+
+    .our-services .owl-nav .owl-prev {
+        top: 40%;
+        left: -30px;
+    }
+    .our-services .owl-nav .owl-next {
+        top: 40%;
+        right: -30px;
+    }
+    .our-services-card-content {
+        height: 170px;
+    }
+
+    .testimonial-card {
+        padding: 40px;
+    }
+    .our-staff-card::after {
+        height: 30%;
+    }
+    .social-media a {
+        margin-right: 10px;
+    }
+
+    .home-services {
+        margin-top: 30px;
+    }
+    textarea.form-control {
+        height: auto !important;
+        margin: 0px 0px;
+    }
+    .form-row > [class*="col-"]:first-child {
+        padding: 0px 5px;
+    }
+    .form-row > [class*="col-"]:last-child {
+        padding: 0px 5px;
+    }
+
+    .f-icon {
+        margin-right: 0px;
+    }
+    .f-title h5 {
+        margin-bottom: 20px;
+    }
+    .get-in-touch li {
+        margin-bottom: 5px;
+    }
+    .salon-hours {
+        padding-left: 0px;
+    }
+    .get-in-touch {
+        padding-left: 0px;
+    }
+
+    /****************   Services Style One   ****************/
+    .inner-navigation::after,
+    .inner-navigation::before {
+        display: none;
+    }
+}
+@media only screen and (max-width: 767.98px) {
+    .owl-nav .owl-prev {
+        top: 20%;
+    }
+    .owl-nav .owl-next {
+        top: 20%;
+    }
+    .social-media a {
+        margin-right: 6px;
+    }
+
+    .about-left-img {
+        max-width: 100%;
+    }
+    .about-left-img::before {
+        right: 0px;
+    }
+}
+@media only screen and (max-width: 575.98px) {
+    .header-icons a:first-child {
+        padding-right: 15px;
+        margin-right: 10px;
+    }
+    .header-icons a:first-child::before {
+        top: -7px;
+        height: 28px;
+    }
+    .header-top {
+        padding: 8px;
+    }
+    .navbar {
+        padding: 2px 0px;
+    }
+    .header-icons {
+        top: 41px;
+        right: 0px;
+    }
+    .header-icons {
+        right: 78px;
+    }
+    .navbar-toggler {
+        margin: 20px 0px;
+    }
+    .header-icons i {
+        font-size: 20px;
+    }
+    .pt-100 {
+        padding-top: 60px;
+    }
+    .pb-70 {
+        padding-bottom: 40px;
+    }
+
+    .testimonial-card {
+        padding: 30px;
+    }
+
+    .our-services .owl-nav .owl-next {
+        right: 0px;
+    }
+    .our-services .owl-nav .owl-prev {
+        left: 0px;
+    }
+    .home-services-flower-img {
+        max-width: 50%;
+        right: 0px;
+        left: auto;
+    }
+    .banner-left-side {
+        position: relative !important;
+    }
+    .banner-content {
+        margin-left: 0px;
+        max-width: 100%;
+    }
+    .owl-nav .owl-prev {
+        position: relative;
+        top: auto;
+        left: 0px;
+        bottom: 0px;
+    }
+    .owl-nav .owl-next {
+        position: relative;
+        top: auto;
+        right: 0;
+        bottom: 0px;
+    }
+    .about-flower {
+        max-width: 43%;
+    }
+    .about-flower img {
+        width: 100%;
+    }
+
+    .testimonial-card-img {
+        max-width: 60%;
+        margin: auto;
+        flex: 100%;
+    }
+    .testimonial-card-content {
+        max-width: 100%;
+    }
+    .our-services .owl-nav .owl-next {
+        top: auto;
+        /* bottom: -60px;
+        right: 34%; */
+    }
+    .our-services .owl-nav .owl-prev {
+        top: auto;
+        /* bottom: -60px;
+        left: 34%; */
+    }
+    .home-services-flower-img img {
+        width: 100%;
+    }
+    /* footer .mb-30 {
+        margin-bottom: 0px;
+    } */
+    footer .get-in-touch{
+        margin-bottom: 0px;
+    }
+
+    /****************   Services Style One   ****************/
+    .sso-card:hover {
+        transform: translate(0px, -10px);
+    }
+    .pagination .page-item .page-link {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .sso-main.ptb-100 {
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+    .inner-banner {
+        padding: 30px 0px 40px;
+    }
+}

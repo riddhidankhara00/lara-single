@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LARA - Tax o feb</title>
+        <!-----   FONT-AWESOME LINK    ----->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-----   BOOTSTRAP LINK    ----->
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+        <!-----   owl-carousel LINK    ----->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+        <!-----   CSS LINK    ----->
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+    </head>
+    <body>
+
+        <div id="gifPreloader">
+            <img src="gif/download.gif" alt="Loading..." />
+        </div>
+        
+      
+      <!--- NAVIGATION BAR --->
+      <section class="navigation-bar">
+         <div class="container-fluid">
+             <nav class="navbar navbar-expand-lg navbar-light">
+                 <div class="d-flex justify-content-between btn-logo">
+                     <a class="navbar-brand pb-2" href="index.html"><img src="images/logo.png" alt="logo" /></a>
+                     <button
+                         class="navbar-toggler"
+                         type="button"
+                         data-toggle="collapse"
+                         data-target="#navbarNavDropdown"
+                         aria-controls="navbarNavDropdown"
+                         aria-expanded="false"
+                         aria-label="Toggle navigation"
+                     >
+                         <span class="navbar-toggler-icon"></span>
+                     </button>
+                 </div>
+                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                     <ul class="navbar-nav align-items-center">
+                         <li class="nav-item active-menu">
+                             <a class="nav-link active-menu" href="index.html">Home <span class="sr-only"></span></a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="about-us.html">About Us <span class="sr-only">(current)</span></a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="Contact-us.html">Contact Us<span class="sr-only"></span></a>
+                         </li>
+                         <li class="header-cart"></li>
+                     </ul>
+                 </div>
+                 <ul class="header-icons">
+                     <a class="shopping-cart" data-toggle="modal" data-target="#myModal" href="#"><i class="fa fa-magnifying-glass"></i></a>
+                     <!-- Modal -->
+                     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                         <div class="modal-dialog" role="document">
+                             <div class="modal-content">
+                                 <div class="modal-header">
+                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                 </div>
+                                 <div class="modal-body">
+                                     <form action="#" class="navbar-form" role="search">
+                                         <div class="form-group position-relative">
+                                             <input type="search" class="form-control" placeholder="Search" />
+                                             <button type="submit" class="btn btn-default"><i class="fa fa-magnifying-glass"></i></button>
+                                         </div>
+                                     </form>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <a class="mobile-hide search-bar-icon" href="#"><i class="fa fa-cart-shopping"></i></a>
+                 </ul>
+             </nav>
+         </div>
+     </section>
+      <div class="inner-banner">
+         <div class="container-fluid">
+            <div class="row align-items-center">
+               <div class="col-lg-7 col-md-7">
+                  <div class="inner-title">
+                     <h3>About Us</h3>
+                     <ul>
+                        <li>
+                           <a href="index.html">Home</a>
+                        </li>
+                        <li>About Us</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-5 col-md-5">
+                  <div class="inner-img">
+                     <img src="images/contct-us-banner-img.png" alt="Inner Banner" />
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="about-area pt-100 pb-70">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-lg-6">
+                  <div class="about-item">
+                     <div class="about-slider owl-carousel owl-theme">
+                        <div class="about-img">
+                           <div class="top-border"></div>
+                           <img src="https://templates.hibootstrap.com/naon/default/assets/images/about/about-img1.jpg" alt="About" />
+                           <div class="bottom-border bottom-border-color"></div>
+                        </div>
+                        <div class="about-img">
+                           <div class="top-border"></div>
+                           <img src="https://templates.hibootstrap.com/naon/default/assets/images/about/about-img2.jpg" alt="About" />
+                           <div class="bottom-border bottom-border-color"></div>
+                        </div>
+                        <div class="about-img">
+                           <div class="top-border"></div>
+                           <img src="https://templates.hibootstrap.com/naon/default/assets/images/about/about-img3.jpg" alt="About" />
+                           <div class="bottom-border bottom-border-color"></div>
+                        </div>
+                     </div>
+                     <div class="about-vector">
+                        <img src="assets/images/about/about-vector.png" alt="About" />
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="about-content pl-20">
+                     <div class="section-title">
+                        <span>About us</span>
+                        <h2>Moisturize Your Hands Everyday</h2>
+                        <p>Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled but also the leap into electronic typesetting. </p>
+                        <p>Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
+                     </div>
+                     <a href="about.html" class="default-btn border-radius-5">Learn More <i class="flaticon-arrow-pointing-to-right"></i> </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="services-area section-bg ptb-100">
+         <div class="container">
+            <div class="section-title mb-45 text-center">
+               <span>Our Services</span>
+               <h2>What We Offer</h2>
+            </div>
+            <div class="row">
+               <div class="col-lg-4 col-6">
+                  <div class="services-card">
+                     <a href="service-details.html">
+                     <img src="images/lara/cotton.png" alt="Services" />
+                     </a>
+                     <div class="content">
+                        <h3><a href="service-details.html">Glitter For Nail Art</a></h3>
+                        <a href="service-details.html" class="more-btn">
+                        <i class="flaticon-arrow-pointing-to-right"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-6">
+                  <div class="services-card">
+                     <a href="service-details.html">
+                     <img src="images/lara/cotton.png" alt="Services" />
+                     </a>
+                     <div class="content">
+                        <h3><a href="service-details.html">Classic Nail Pedicure</a></h3>
+                        <a href="service-details.html" class="more-btn">
+                        <i class="flaticon-arrow-pointing-to-right"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-6">
+                  <div class="services-card">
+                     <a href="service-details.html">
+                     <img src="images/lara/cotton.png" alt="Services" />
+                     </a>
+                     <div class="content">
+                        <h3><a href="service-details.html">Paraffin For Nail Hands</a></h3>
+                        <a href="service-details.html" class="more-btn">
+                        <i class="flaticon-arrow-pointing-to-right"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-6">
+                  <div class="services-card">
+                     <a href="service-details.html">
+                     <img src="images/lara/cotton.png" alt="Services" />
+                     </a>
+                     <div class="content">
+                        <h3><a href="service-details.html">Deep Paraffin Waxing</a></h3>
+                        <a href="service-details.html" class="more-btn">
+                        <i class="flaticon-arrow-pointing-to-right"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-6">
+                  <div class="services-card">
+                     <a href="service-details.html">
+                     <img src="images/lara/cotton.png" alt="Services" />
+                     </a>
+                     <div class="content">
+                        <h3><a href="service-details.html">Classic Nail Manicure</a></h3>
+                        <a href="service-details.html" class="more-btn">
+                        <i class="flaticon-arrow-pointing-to-right"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-6">
+                  <div class="services-card">
+                     <a href="service-details.html">
+                     <img src="images/lara/cotton.png" alt="Services" />
+                     </a>
+                     <div class="content">
+                        <h3><a href="service-details.html">Art Nail & Effects</a></h3>
+                        <a href="service-details.html" class="more-btn">
+                        <i class="flaticon-arrow-pointing-to-right"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-12 text-center mt-20">
+                  <a href="services.html" class="default-btn two border-radius-5">See All Service <i class="flaticon-arrow-pointing-to-right"></i></a>
+               </div>
+            </div>
+            <div class="services-vector">
+               <img src="images/lara/clothing-process-2.png" alt="vector" />
+            </div>
+         </div>
+      </div>
+      <div class="team-area pt-100 pb-70">
+         <div class="container">
+            <div class="section-title mb-45 text-center">
+               <span>Our Staff</span>
+               <h2>Our Excellent & Expert Staff</h2>
+               <div class="section-vector">
+                  <img src="assets/images/shape/section-vector.png" alt="vector" />
+               </div>
+            </div>
+            <div class="row justify-content-center">
+               <div class="col-lg-4 col-md-6">
+                  <div class="team-card">
+                     <div class="team-img">
+                        <a href="team-details.html">
+                        <img src="assets/images/team/team-img1.jpg" alt="Team" />
+                        </a>
+                        <ul class="social-links-btn">
+                           <li class="share-btn"><i class="flaticon-arrow-pointing-to-right"></i></li>
+                           <li>
+                              <a href="https://vimeo.com/" target="_blank">
+                              <i class="ri-vimeo-fill"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="https://twitter.com/" target="_blank">
+                              <i class="ri-twitter-fill"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="https://www.linkedin.com/" target="_blank">
+                              <i class="ri-linkedin-fill"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="https://www.facebook.com/" target="_blank">
+                              <i class="ri-facebook-fill"></i>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="content">
+                        <h3>
+                           <a href="team-details.html">
+                           Lorenzo Diego
+                           </a>
+                        </h3>
+                        <span>Nail Specialist</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="team-card">
+                     <div class="team-img">
+                        <a href="team-details.html">
+                        <img src="assets/images/team/team-img2.jpg" alt="Team" />
+                        </a>
+                        <ul class="social-links-btn">
+                           <li class="share-btn"><i class="flaticon-arrow-pointing-to-right"></i></li>
+                           <li>
+                              <a href="https://vimeo.com/" target="_blank">
+                              <i class="ri-vimeo-fill"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="https://twitter.com/" target="_blank">
+                              <i class="ri-twitter-fill"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="https://www.linkedin.com/" target="_blank">
+                              <i class="ri-linkedin-fill"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="https://www.facebook.com/" target="_blank">
+                              <i class="ri-facebook-fill"></i>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="content">
+                        <h3>
+                           <a href="team-details.html">
+                           Gabriele Edoardo
+                           </a>
+                        </h3>
+                        <span>Senior Stylist</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="team-card">
+                     <div class="team-img">
+                        <a href="team-details.html">
+                        <img src="assets/images/team/team-img3.jpg" alt="Team" />
+                        </a>
+                        <ul class="social-links-btn">
+                           <li class="share-btn"><i class="flaticon-arrow-pointing-to-right"></i></li>
+                           <li>
+                              <a href="https://vimeo.com/" target="_blank">
+                              <i class="ri-vimeo-fill"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="https://twitter.com/" target="_blank">
+                              <i class="ri-twitter-fill"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="https://www.linkedin.com/" target="_blank">
+                              <i class="ri-linkedin-fill"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="https://www.facebook.com/" target="_blank">
+                              <i class="ri-facebook-fill"></i>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="content">
+                        <h3>
+                           <a href="team-details.html">
+                           Matteo Lorenzo
+                           </a>
+                        </h3>
+                        <span>Pedicure Specialist</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="testimonial-area section-bg pt-100 pb-70">
+         <div class="container">
+            <div class="section-title mb-45 text-center">
+               <span>Our Testimonial</span>
+               <h2>What Our Clients Feedback</h2>
+            </div>
+            <div class="testimonial-slider owl-carousel owl-theme">
+               <div class="testimonial-item">
+                  <img src="assets/images/testimonial/testimonial-img1.jpg" alt="Testimonial" />
+                  <h3>Emanuele Ebrew</h3>
+                  <p>Pellentesque habitant morbi tristique senectus netus et malesuada fames ac turpis egestas vestibulum tortor quam feugiat vit tristique senectus</p>
+                  <div class="rating">
+                     <i class="ri-star-fill"></i>
+                     <i class="ri-star-fill"></i>
+                     <i class="ri-star-fill"></i>
+                     <i class="ri-star-line"></i>
+                     <i class="ri-star-line"></i>
+                  </div>
+               </div>
+               <div class="testimonial-item">
+                  <img src="assets/images/testimonial/testimonial-img2.jpg" alt="Testimonial" />
+                  <h3>Giovanni Loren</h3>
+                  <p>Pellentesque habitant morbi tristique senectus netus et malesuada fames ac turpis egestas vestibulum tortor quam feugiat vit tristique senectus</p>
+                  <div class="rating">
+                     <i class="ri-star-fill"></i>
+                     <i class="ri-star-fill"></i>
+                     <i class="ri-star-fill"></i>
+                     <i class="ri-star-line"></i>
+                     <i class="ri-star-line"></i>
+                  </div>
+               </div>
+               <div class="testimonial-item">
+                  <img src="assets/images/testimonial/testimonial-img3.jpg" alt="Testimonial" />
+                  <h3>Massimo Pasquale</h3>
+                  <p>Pellentesque habitant morbi tristique senectus netus et malesuada fames ac turpis egestas vestibulum tortor quam feugiat vit tristique senectus</p>
+                  <div class="rating">
+                     <i class="ri-star-fill"></i>
+                     <i class="ri-star-fill"></i>
+                     <i class="ri-star-fill"></i>
+                     <i class="ri-star-line"></i>
+                     <i class="ri-star-line"></i>
+                  </div>
+               </div>
+               <div class="testimonial-item">
+                  <img src="assets/images/testimonial/testimonial-img4.jpg" alt="Testimonial" />
+                  <h3>Gabriele Edoardo </h3>
+                  <p>Pellentesque habitant morbi tristique senectus netus et malesuada fames ac turpis egestas vestibulum tortor quam feugiat vit tristique senectus</p>
+                  <div class="rating">
+                     <i class="ri-star-fill"></i>
+                     <i class="ri-star-fill"></i>
+                     <i class="ri-star-fill"></i>
+                     <i class="ri-star-line"></i>
+                     <i class="ri-star-line"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+         
+        <!--- Footer --->
+        <footer class="pt-100 pb-70">
+         <div class="container">
+             <div class="row">
+                 <div class="col-xl-4 col-lg-3 col-sm-6">
+                     <div class="f-logo-content mb-30">
+                         <div class="f-logo">
+                             <a href="index.html"><img src="images/logo.png" alt="f-logo" /></a>
+                         </div>
+                         <p>Pellentesque habitant morbi tristique senectus netus malesuada fames ac turpis egestas vesti ulum tortor quam bulum tortor feugiat</p>
+                         <div class="social-media f-icon">
+                             <a href="#">
+                                 <i class="fa-brands fa-facebook-f"></i>
+                             </a>
+                             <a href="#">
+                                 <i class="fa-brands fa-twitter"></i>
+                             </a>
+                             <a href="#">
+                                 <i class="fa-brands fa-linkedin-in"></i>
+                             </a>
+                             <a href="#">
+                                 <i class="fa-brands fa-vimeo-v"></i>
+                             </a>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-lg-3 col-sm-6">
+                     <div class="Newsletter mb-30">
+                         <div class="f-title">
+                             <h5>Our Newsletter</h5>
+                         </div>
+                         <div class="f-email">
+                             <form action="#">
+                                 <input type="email" class="form-control" name="email" placeholder="Enter Your Email Address" required />
+                                 <button type="submit" class="btn btn-primary">Subscribe Now<i class="fa fa-paper-plane"></i></button>
+                             </form>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-xl-2 col-lg-3 col-sm-6">
+                     <div class="salon-hours mb-30">
+                         <div class="f-title">
+                             <h5>Salon Hours</h5>
+                         </div>
+                         <ul class="f-hours">
+                             <li>
+                                 <b>Monday - Friday</b>
+                                 <p>09:00 AM - 10:00 PM</p>
+                             </li>
+                             <li>
+                                 <b>Saturday - Sunday</b>
+                                 <p>10:00 AM - 08:00 PM</p>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+                 <div class="col-lg-3 col-sm-6">
+                     <div class="get-in-touch mb-30">
+                         <div class="f-title">
+                             <h5>Get In Touch</h5>
+                         </div>
+                         <ul class="get-in-touch-content">
+                             <li class="d-flex align-items-center">
+                                 <div class="f-icon social-media">
+                                     <a href="#">
+                                         <i class="fa-solid fa-phone-volume"></i>
+                                     </a>
+                                 </div>
+                                 <div class="get-touch-content">
+                                     <b>Contact Us</b>
+                                     <p><a href="tel:+123 456 778">+123 456 778</a></p>
+                                 </div>
+                             </li>
+                             <li class="d-flex align-items-center">
+                                 <div class="f-icon social-media">
+                                     <a href="#">
+                                         <i class="fa-solid fa-envelope"></i>
+                                     </a>
+                                 </div>
+                                 <div class="get-touch-content">
+                                     <b>Email:</b>
+                                     <p><a href="mailto:hello@naon.com">hello@naon.com</a></p>
+                                 </div>
+                             </li>
+                             <li class="d-flex align-items-center">
+                                 <div class="f-icon social-media">
+                                     <a href="#">
+                                         <i class="fa fa-location-dot"></i>
+                                     </a>
+                                 </div>
+                                 <div class="get-touch-content">
+                                     <b>Address</b>
+                                     <p>151, Demo Store United States</p>
+                                 </div>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </footer>
+     <section class="footer-bootom">
+         <div class="container">
+             <div class="f-b-content text-center">
+                 <p>Copyright @2022 <b>Naon</b> All Rights Reserved <a href="#">HiBootstrap</a></p>
+             </div>
+         </div>
+     </section>
+ </body>
+ <!-----   BOOTSTRAP SCRIPT    ----->
+ <script
+     src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+     crossorigin="anonymous"
+ ></script>
+ <script
+     src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+     crossorigin="anonymous"
+ ></script>
+ <!-- jquery -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+ <!-- Owl Craousel -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+ <script src="js/home-index.js"></script>
+ <script src="assets/js/custom.js"></script>
+</html>
